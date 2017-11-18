@@ -3,7 +3,6 @@ var AschJS = require('asch-js');
 var request = require('request');
 
 
-
 let secret = 'intact rough funny foam say wish river rain minimum stand distance arrest'; //
 
 let publicKey = AschJS.crypto.getKeys(secret).publicKey;
