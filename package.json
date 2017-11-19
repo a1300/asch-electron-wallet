@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "electron .",
     "test": "npm test"
   },
   "dependencies": {
@@ -11,8 +12,14 @@
     "request": "2.83.0",
     "js-nacl": "0.6.0",
     "crypto-browserify": "3.9.14",
-    "bitcore-mnemonic": "1.0.1"
+    "bitcore-mnemonic": "1.0.1",
+    "electron": "1.7.9",
+    "path": "0.12.7",
+    "url":"0.11.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
 }
